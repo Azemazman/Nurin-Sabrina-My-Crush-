@@ -5,11 +5,11 @@ body {
  
 }
 
-body.page1 {
+body page.1 {
     background-color: #e17bca;
 }
 
-body.page2 {
+body page.2 {
     background-color: #fff5f2;
 }
 
