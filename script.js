@@ -6,6 +6,38 @@ function startWebsite() {
 
 }
 
+function openPassword() {
+
+    document.getElementById("passwordBox").style.display = "flex";
+
+}
+
+
+function closePassword() {
+
+    document.getElementById("passwordBox").style.display = "none";
+
+}
+
+
+function checkPassword() {
+
+    const password =
+        document.getElementById("passwordInput").value;
+
+    if (password === "1234") {
+
+        window.location.href = "page2.html";
+
+    } else {
+
+        document.getElementById("wrongPassword").innerText =
+            "Hmm... that's not it 😝 Try again ♡";
+
+    }
+
+}
+
 
 function showMessage(type) {
 
