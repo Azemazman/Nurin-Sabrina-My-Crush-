@@ -93,3 +93,79 @@ button:hover {
 .card:hover {
     transform: translateY(-10px) rotate(1deg);
 }
+
+/* PASSWORD POPUP */
+
+.password-box {
+    display: none;
+
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    justify-content: center;
+    align-items: center;
+
+    z-index: 1000;
+}
+
+.password-content {
+    background: #fff5f2;
+
+    padding: 40px;
+
+    border-radius: 25px;
+
+    text-align: center;
+
+    width: 350px;
+
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.password-content h2 {
+    color: #493333;
+}
+
+.password-content p {
+    color: #9c8080;
+}
+
+.password-content input {
+    width: 80%;
+
+    padding: 14px;
+
+    margin: 15px 0;
+
+    border: 2px solid #ffd1d1;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+.close {
+    background: none;
+
+    font-size: 30px;
+
+    padding: 0;
+
+    float: right;
+
+    color: #9c8080;
+}
+
+.close:hover {
+    transform: none;
+}
+
+#wrongPassword {
+    color: #d66;
+}
