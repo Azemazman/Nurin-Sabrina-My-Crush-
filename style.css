@@ -1,8 +1,17 @@
 body {
     margin: 0;
     font-family: "Comic Sans MS", cursive;
-    background: #fff5f2;
     color: #493333;
+
+    background-color: #fff5f2;
+
+    /* Cute dotted pattern */
+    background-image: radial-gradient(
+        rgba(255, 150, 180, 0.25) 2px,
+        transparent 2px
+    );
+
+    background-size: 35px 35px;
 }
 
 .hero {
@@ -15,22 +24,17 @@ body {
 
     text-align: center;
 
-    background:
-        radial-gradient(
-            circle,
-            rgba(255, 255, 255, 0.25) 2px,
-            transparent 2px
-        ),
-        linear-gradient(
-            rgba(50, 20, 20, 0.35),
-            rgba(50, 20, 20, 0.35)
-        ),
-        url("images/sunset.jpg");
+    /* Same pattern for the hero */
+    background-color: #fff5f2;
 
-    background-size: 35px 35px, cover, cover;
-    background-position: center;
+    background-image: radial-gradient(
+        rgba(255, 150, 180, 0.25) 2px,
+        transparent 2px
+    );
 
-    color: white;
+    background-size: 35px 35px;
+
+    color: #493333;
 }
 .hero h1 {
     font-size: 70px;
