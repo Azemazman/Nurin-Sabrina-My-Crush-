@@ -3,6 +3,10 @@ body {
     font-family: "Comic Sans MS", cursive;
     background: #fff5f2;
     color: #493333;
+    background-image: radial-gradient(
+        rgba(255, 150, 180, 0.25) 2px,
+        transparent 2px
+    );
 }
 
 .hero {
