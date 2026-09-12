@@ -71,8 +71,15 @@ button:hover {
 }
 
 .explore {
+    min-height: 100vh;
+
     padding: 80px 10%;
+
     text-align: center;
+
+    background-color: #ffe4ec;
+
+    color: #493333;
 }
 
 .cards {
