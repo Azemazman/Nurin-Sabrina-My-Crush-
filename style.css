@@ -1,9 +1,16 @@
 body {
     margin: 0;
     font-family: "Comic Sans MS", cursive;
-    background: #fff5f2;
     color: #9c8080;
  
+}
+
+body.page1 {
+    background-color: #e17bca;
+}
+
+body.page2 {
+    background-color: #fff5f2;
 }
 
 .hero {
