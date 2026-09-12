@@ -24,9 +24,35 @@
             and little things I want to share with my crush.
         </p>
 
-        <button onclick="startWebsite()">
-           Press here ♡ →
+        <button onclick="openPassword()">
+    Let's Go →
+</button>
+
+<div id="passwordBox" class="password-box">
+
+    <div class="password-content">
+
+        <button class="close" onclick="closePassword()">×</button>
+
+        <h2>🔐 One little question...</h2>
+
+        <p>What's the password? ♡</p>
+
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="Enter password..."
+        >
+
+        <button onclick="checkPassword()">
+            Enter ♡
         </button>
+
+        <p id="wrongPassword"></p>
+
+    </div>
+
+</div>
 
     </section>
 
