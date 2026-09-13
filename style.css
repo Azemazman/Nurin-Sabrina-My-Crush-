@@ -1,8 +1,7 @@
 body {
     margin: 0;
     font-family: "Comic Sans MS", cursive;
-    text-align: justify;
-    
+
  
 }
 
@@ -64,7 +63,7 @@ button:hover {
 
 .explore {
     padding: 80px 10%;
-    text-align: center;
+    text-align: justify;
 }
 
 .cards {
