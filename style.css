@@ -12,7 +12,7 @@ body.page1 {
 body.page2 {
     background-color: #fffbfa;
     background-image:
-        radial-gradient(#100f0f 1.5px, transparent 1.5px);
+        radial-gradient(#1b1a1a 1.5px, transparent 1.5px);
     background-size: 25px 25px;
 }
 
