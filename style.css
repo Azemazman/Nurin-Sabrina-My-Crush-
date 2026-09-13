@@ -11,6 +11,9 @@ body.page1 {
 
 body.page2 {
     background-color: #fffbfa;
+    background-image:
+        radial-gradient(#e8b5d8 1.5px, transparent 1.5px);
+    background-size: 25px 25px;
 }
 
 .hero {
