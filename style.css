@@ -197,3 +197,18 @@ button:hover {
     margin-top: 10px;
     font-size: 16px;
 }
+
+.music-button {
+    background-color: #e17bca;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.music-button:hover {
+    opacity: 0.8;
+}
