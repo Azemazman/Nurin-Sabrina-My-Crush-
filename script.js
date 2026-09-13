@@ -60,7 +60,12 @@ function showMessage(type) {
     }
 
 }
-function playMusic() {
+function toggleMusic() {
     const music = document.getElementById("music");
-    music.play();
+
+    if (music.paused) {
+        music.play();
+    } else {
+        music.pause();
+    }
 }
