@@ -60,3 +60,7 @@ function showMessage(type) {
     }
 
 }
+function playMusic() {
+    const music = document.getElementById("music");
+    music.play();
+}
