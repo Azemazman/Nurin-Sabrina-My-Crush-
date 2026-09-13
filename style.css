@@ -5,11 +5,11 @@ body {
  
 }
 
-body page.1 {
+body.page1 {
     background-color: #e17bca;
 }
 
-body page.2 {
+body.page2 {
     background-color: #fff5f2;
 }
 
@@ -22,9 +22,6 @@ body page.2 {
     align-items: center;
 
     text-align: center;
-
-    background-size: cover;
-    background-position: center;
 
     color: #493333;
 }
