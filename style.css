@@ -23,13 +23,6 @@ body page.2 {
 
     text-align: center;
 
-    background:
-        linear-gradient(
-            rgba(50, 20, 20, 0.35),
-            rgba(50, 20, 20, 0.35)
-        ),
-        url("images/sunset.jpg");
-
     background-size: cover;
     background-position: center;
 
