@@ -178,7 +178,7 @@ button:hover {
 
 .photo-row img {
     width: 250px;
-    height: 250px;
+    height: 350px;
     object-fit: cover;
 
     border: 5px solid white;
