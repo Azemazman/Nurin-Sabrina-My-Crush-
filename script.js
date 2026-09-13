@@ -25,7 +25,7 @@ function checkPassword() {
     const password =
         document.getElementById("passwordInput").value;
 
-    if (password === "1234") {
+    if (password === "30/8/2026") {
 
         window.location.href = "page2.html";
 
