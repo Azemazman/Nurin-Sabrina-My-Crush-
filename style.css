@@ -6,7 +6,7 @@ body {
 }
 
 body.page1 {
-    background-color: #e4c8ba;
+    background-color:  #ffd1d1;
     text-align: center;
 }
 
@@ -54,7 +54,7 @@ button {
     border: none;
     border-radius: 30px;
 
-    background: #ffd1d1;
+    background: #e4c8ba;
 
     font-size: 18px;
 
